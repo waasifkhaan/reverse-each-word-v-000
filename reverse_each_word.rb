@@ -5,5 +5,11 @@ def reverse_each_word(sentence)
       result << element.reverse 
     end
     result.join(" ")
-  end
-  
+end
+
+def reverse_each_word(sentence)
+    array = sentence.split
+    array.collect do |element|
+      element.reverse 
+    end
+end  
